@@ -4,13 +4,6 @@ no_date: true
 no_link: true
 ---
 
-Tutor for MT1002: Mathematics (2 tutorials), Spring.
+Tutor for MT1002: Mathematics (2 tutorials + 1 example class), Spring.
 
-%Heading 1
-%======
 
-%Heading 2
-%======
-
-%Heading 3
-%======
