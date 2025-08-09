@@ -7,6 +7,54 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  /* 彻底隐藏所有日期 */
+  .archive__item-date,
+  .page__date {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* 禁用标题链接功能 */
+  .archive__item-title a {
+    pointer-events: none !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  
+  /* 移除悬停效果 */
+  .archive__item-title a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  
+  /* 针对特定文件的额外保护 */
+  [data-no-link="true"] .archive__item-title a {
+    pointer-events: none !important;
+  }
+  [data-no-date="true"] .archive__item-date {
+    display: none !important;
+  }
+</style>
+
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <div 
+    class="archive__item" 
+    data-no-link="{{ post.no_link | default: false }}" 
+    data-no-date="{{ post.no_date | default: false }}"
+  >
+    {% if post.no_link %}
+      <h2 class="archive__item-title">{{ post.title }}</h2>
+    {% else %}
+      <h2 class="archive__item-title">{{ post.title }}</h2>
+    {% endif %}
+    
+    <div class="archive__item-content">
+      {{ post.content }}
+    </div>
+  </div>
 {% endfor %}
