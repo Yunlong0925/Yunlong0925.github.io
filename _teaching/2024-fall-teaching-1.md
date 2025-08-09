@@ -1,13 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "2024-2025：University of St Andrews"
 collection: teaching
-type: "Undergraduate course"
+#type: "Undergraduate course"
 permalink: /teaching/2024-2025 Fall
-venue: "University 1, Department"
-location: "City, Country"
+#venue: "University 1, Department"
+#location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Tutor for MT1002: Mathematics (2 tutorials), Fall.
 
 Heading 1
 ======
