@@ -1,10 +1,7 @@
 ---
 title: "2025-2026：University of St Andrews"
-#type: "Workshop"
-#permalink: /teaching/2015-spring-teaching-1
-#venue: "University 1, Department"
-date: "" 
-#location: "City, Country"
+no_date: true
+no_link: true
 ---
 
 Tutor for MT1002: Mathematics (2 tutorials), Spring.
