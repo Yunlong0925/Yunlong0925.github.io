@@ -1,6 +1,5 @@
 ---
 title: "2025-2026：University of St Andrews"
-#collection: teaching
 #type: "Workshop"
 #permalink: /teaching/2015-spring-teaching-1
 #venue: "University 1, Department"
