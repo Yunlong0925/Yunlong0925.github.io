@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Yunlong Xu, is a second year PhD student majoring in Mathematics at University of St Andrews, supervised by Jonathan Fraser and Natalia Jurga. My research areas are dimension theory and fractal geometry.I am also interested in dynamical systems, especially complex dynamics.
+Yunlong Xu, is a second year PhD student majoring in Mathematics at University of St Andrews, supervised by Jonathan Fraser and Natalia Jurga. My research areas are dimension theory and fractal geometry. I am also interested in dynamical systems, especially complex dynamics.
 
 
 Educational Background
